@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+}
+ ul {
+   list-style: none;
+ }
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.app-container {
+  overflow: hidden;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+}
+.auth-form {
+    color: white;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background: rgb(0,0,0,0.7);
+}
+.modal-wrapper{
+  position: absolute;
+  right: 15px;
+  top: 0;
+  margin: 15px;
+  z-index: 1000;
+}
+.simple-modal {
+  border-radius: 6px;
+  margin-bottom: 15px; 
+}
+.card-body {
+  padding: 1rem !important;
+}
+.books-catalog-wrapper{
+  padding: 15px; 
+  overflow: auto;
+    height: 80vh;
+    background: rgb(255,255,255,0.9);
+}
+.books-catalog-wrapper > ul {
+  padding-left: 0;
+}
+.nav-bar-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.card-container {
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.card-container > img {
+  width: fit-content;
+  max-width: 250px;
+  max-height: 250px;
+}
+.card-container > div.card-body {
+  text-align: left;
+}
+.card-subtitle {
+  line-height: 1.5;
+}
+li.ordered-books span {
+  margin-left: 10px;
+}
+.book-info-wrapper {
+  background: #ccc;
+  border-radius: 5px;
+  display: flex;
+  width: max-content;
+  padding-right: 10px;
+  margin: 5px;
+}
+.card-container ul {
+  margin-bottom: 10px;
+  border: 1px solid white;
+  padding: 5px;
+}
+.btn-group-custom {
+    display: flex;
+    flex-direction: row;
+}
+.btn-group-custom > div {
+  margin: 5px;
+}
+.nav-link {
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

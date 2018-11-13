@@ -1,0 +1,19 @@
+export const SIGN_IN = 'SIGN_IN';
+export const SIGN_UP = 'SIGN_UP';
+export const FETCH_BOOKS = 'FETCH_BOOKS';
+export const FETCH_BOOK = 'FETCH_BOOK';
+export const FETCH_ORDERS = 'FETCH_ORDERS';
+export const RESPONSE_MESSAGE_ERROR = 'RESPONSE_MESSAGE_ERROR';
+export const RESPONSE_MESSAGE_SUCCESS = 'RESPONSE_MESSAGE_SUCCESS';
+export const USER_GET = 'USER_GET';
+export const USERS_GET = 'USERS_GET';
+export const USER_UPDATED = 'USER_UPDATED';
+export const USER_DELETED = 'USER_DELETED';
+export const ADD_BOOK = 'ADD_BOOK';
+export const UPDATE_BOOK = 'UPDATE_BOOK';
+export const DELETE_BOOK = 'DELETE_BOOK';
+export const ORDER_CREATE = 'ORDER_CREATE';
+export const ORDER_CONFIRM_REJECT = 'ORDER_CONFIRM_REJECT';
+export const ORDER_DELETE = 'ORDER_DELETE';
+export const SET_UNAUTHORIZATED = 'SET_UNAUTHORIZATED';
+
