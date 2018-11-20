@@ -28,7 +28,8 @@ const CardComponent = props => {
               buttonLabel="Buy"
               title="Should put this book into order?"
               resolve={fields => {
-                const { count } = fields;
+                let { count } = fields;
+                count = parseInt(count);
                 if (count <= props.count) {
                   props.addBook({ count, bookId: props._id });
                 } else {
