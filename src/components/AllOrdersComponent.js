@@ -9,7 +9,7 @@ export class OrderComponent extends Component {
       <li key={book.bookDetails._id} className="ordered-books">
         <div className="book-info-wrapper">
           <span>Name: {book.bookDetails.name}</span>
-          <span>Author: {book.author}</span>
+          <span>Author: {book.bookDetails.author}</span>
           <span>Count: {book.count}</span>
           <span>Price: {book.bookDetails.price}</span>
         </div>
